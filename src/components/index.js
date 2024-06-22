@@ -2,6 +2,8 @@ import Container from "./Container";
 import AdContainer from "./AdContainer";
 import Button from "./Button";
 import Input from "./Input";
+import RTE from "./RTE";
+import Select from "./Select";
 
 import Header from "./header/Header";
 import Logo from "./header/Logo";
@@ -39,4 +41,6 @@ export {
   SignUpComponent,
   AuthLayout,
   PostForm,
+  RTE,
+  Select,
 };

@@ -1,7 +1,7 @@
 import conf from "../conf/conf";
 import { Client, ID, Databases, Storage, Query } from "appwrite";
 
-export class appwriteService {
+export class AppwriteService {
   client = new Client();
   databases;
   buckets;
@@ -196,4 +196,3 @@ export class appwriteService {
 
 const appwriteService = new AppwriteService();
 export default appwriteService;
-export { createPost, deletePost, getPost, getPosts };
